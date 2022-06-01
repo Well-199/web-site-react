@@ -13,19 +13,19 @@ const Footer = () => {
                         <div>
                             <p>São Paulo, Brazil</p>
                         </div>
-                        <div className='phone'>
-                            <h4>
-                            <FaPhone size={20} style={{color:"#FFF", marginRight:"2rem"}}/>
-                            55(11)97166-8818
-                            </h4>
-                        </div>
-                        <div className='email'>
-                            <h4>
-                            <FaMailBulk size={20} style={{color:"#FFF", marginRight:"2rem"}}/>
-                            wellsistemasweb@gmail.com
-                            </h4>
-                        </div>
                     </div>
+                    <div className='phone'>
+                        <h4>
+                            <FaPhone size={20} style={{color:"#FFF", marginRight:"2rem"}}/>
+                            55 (11) 97166-8818
+                        </h4>
+                    </div>
+                    <div className='email'>
+                        <h4>
+                        <FaMailBulk size={20} style={{color:"#FFF", marginRight:"2rem"}}/>
+                        wellsistemasweb@gmail.com
+                        </h4>
+                    </div> 
                 </div>
 
                 <div className='right'>
@@ -38,6 +38,8 @@ const Footer = () => {
 
                     <div className='social'>
                         <FaFacebook size={30} style={{color:"#FFF", marginRight:"1rem"}}/>
+
+                        {/* Canal no youtube video aulas no lugar do twitter */}
                         <FaTwitter size={30} style={{color:"#FFF", marginRight:"1rem"}}/>
                         <FaLinkedin size={30} style={{color:"#FFF", marginRight:"1rem"}}/>
                     </div>
