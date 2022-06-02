@@ -1,6 +1,6 @@
 import React from 'react'
 import './FooterStyles.css'
-import { FaHome, FaPhone, FaMailBulk, FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa'
+import { FaHome, FaPhone, FaMailBulk, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
 
@@ -9,39 +9,51 @@ const Footer = () => {
             <div className='footer-container'>
                 <div className='left'>
                     <div className='location'>
-                        <FaHome size={20} style={{color:"#FFF", marginRight:"2rem"}}/>
+                        <a href='https://www.google.com.br/maps/place/Av.+Paulista+-+Bela+Vista,+S%C3%A3o+Paulo+-+SP/@-23.5657344,-46.6534266,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce59c8da0aa315:0xd59f9431f2c9776a!8m2!3d-23.5657393!4d-46.6512379' target='_blank'>
+                            <FaHome size={20} style={{color:"#FFF", marginRight:"2rem"}}/>
+                        </a>
                         <div>
                             <p>São Paulo, Brazil</p>
                         </div>
                     </div>
                     <div className='phone'>
                         <h4>
-                            <FaPhone size={20} style={{color:"#FFF", marginRight:"2rem"}}/>
-                            55 (11) 97166-8818
+                            <a href="https://wa.me/5511971668818?text=Olá,%20preciso%20de%20um%20Desenvolvedor%20ReactJS!" target="blank">
+                                <FaPhone size={20} style={{color:"#FFF", marginRight:"2rem"}}/>
+                                55 (11) 97166-8818
+                            </a>
                         </h4>
                     </div>
                     <div className='email'>
                         <h4>
-                        <FaMailBulk size={20} style={{color:"#FFF", marginRight:"2rem"}}/>
-                        wellsistemasweb@gmail.com
+                            <a href='mailto:wellsistemasweb@gmail.com' target='_blank'>
+                                <FaMailBulk size={20} style={{color:"#FFF", marginRight:"2rem"}}/>
+                                wellsistemasweb@gmail.com
+                            </a>
                         </h4>
                     </div> 
                 </div>
 
                 <div className='right'>
-                    <h4>About the company</h4>
+                    <h4>Quem é wellsistemasweb ?</h4>
                     <p>
-                        This is me Wellington Lira. CEO &  
-                        Founder of WellSistemasWeb. 
-                        I'm also a React, React native and Nodejs developer
+                        Este sou eu Wellington Lira. 
+                        Desenvolvedor freelancer com ReactJS e 
+                        também crio softwares com Nodejs e 
+                        aplicativos para dispositivos móveis 
+                        com React native.
                     </p>
 
                     <div className='social'>
-                        <FaFacebook size={30} style={{color:"#FFF", marginRight:"1rem"}}/>
+                        <a href='https://www.instagram.com/wellsistemasweb/' target='_blank'>
+                            <FaInstagram size={30} style={{color:"#FFF", marginRight:"1rem"}}/>
+                        </a>
 
                         {/* Canal no youtube video aulas no lugar do twitter */}
                         <FaTwitter size={30} style={{color:"#FFF", marginRight:"1rem"}}/>
-                        <FaLinkedin size={30} style={{color:"#FFF", marginRight:"1rem"}}/>
+                        <a href='https://www.linkedin.com/in/wellington-lira-704018180/' target='_blank'>
+                            <FaLinkedin size={30} style={{color:"#FFF", marginRight:"1rem"}}/>
+                        </a>
                     </div>
                 </div>
             </div>

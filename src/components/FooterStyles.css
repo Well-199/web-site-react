@@ -29,6 +29,10 @@
     line-height: 30px;
 }
 
+.location a{
+    text-decoration: none;
+}
+
 .right{
     height: 100%;
     max-width: 100%;
@@ -37,12 +41,24 @@
     padding: 1rem;
 }
 
+.email a{
+    text-decoration: none;
+}
+
 .social{
     margin-top: 1rem;
 }
 
+.social a{
+    text-decoration: none;
+}
+
 .phone{
     cursor: pointer;
+}
+
+.phone a{
+    text-decoration: none;
 }
 
 h4{

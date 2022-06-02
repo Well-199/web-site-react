@@ -6,12 +6,12 @@ import WorkCard from '../components/WorkCard'
 
 const Customers = () => {
 
-  let txt = `Who currently uses software developed by wellsistemasweb`
+  let txt = `Quem atualmente utiliza software desenvolvido pela wellsistemasweb?`
 
   return (
     <div>
       <Navbar/>
-      <HeroImg2 heading="CUSTOMERS" text={txt}/>
+      <HeroImg2 heading="CLIENTES" text={txt}/>
       <WorkCard/>
       <Footer/>
     </div>

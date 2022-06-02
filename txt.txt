@@ -1,23 +1,45 @@
-Depois de alguns anos na areá administrativa em várias empresas
+Depois de alguns anos na areá administrativa decidi
 
-fundei a wellsistemasweb criando software com C# 
+
+
+iniciar minha carreira como freelancer criando software com C# 
+
+
 
 mas devido ao alto custo para meus primeiros clientes 
 
+
+
 migrei para PHP e logo descobri que a hospedagem compartilhada
+
+
 
 que tinha um custo menor e era bem atrativa também tinha
 
+
+
 uma performance horrível para quem precisa 
+
+
 
 de aplicações integradas com back-end e banco de dados,
 
+
+
 então decidi adotar como stack principal no desenvolvimento
 
-de software a Linguagem Javascript com React para front-end,
+
+
+de software a linguagem Javascript juntamente com React para front-end,
+
+
 
 react native para desenvolvimento mobile, 
 
+
+
 node js para back-end, banco de dados postgreSQL 
 
-e a segurança dos servidores aws
+
+
+e a segurança dos servidores aws.

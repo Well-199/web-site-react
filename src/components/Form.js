@@ -5,19 +5,19 @@ const Form = () => {
   return (
     <div className='form'>
         <form>
-            <label>Your Name</label>
+            <label>Nome</label>
             <input type="text"/>
 
             <label>Email</label>
             <input type="email"/>
 
-            <label>Subject</label>
+            <label>Assunto</label>
             <input type="text"/>
 
-            <label>Message</label>
-            <textarea rows="6" placeholder="Type your message here"/>
+            <label>Mensagem</label>
+            <textarea rows="6" placeholder="Escreva sua mensagem aqui"/>
 
-            <button className='btn'>Submit</button>
+            <button className='btn'>ENVIAR</button>
         </form>
     </div>
   )
