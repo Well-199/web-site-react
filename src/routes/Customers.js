@@ -5,10 +5,13 @@ import HeroImg2 from '../components/HeroImg2'
 import WorkCard from '../components/WorkCard'
 
 const Customers = () => {
+
+  let txt = `Who currently uses software developed by wellsistemasweb`
+
   return (
     <div>
       <Navbar/>
-      <HeroImg2 heading="CUSTOMERS" text="Some of my most recent works"/>
+      <HeroImg2 heading="CUSTOMERS" text={txt}/>
       <WorkCard/>
       <Footer/>
     </div>
