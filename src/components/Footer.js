@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='footer-container'>
                 <div className='left'>
                     <div className='location'>
-                        <a href='https://www.google.com.br/maps/place/Av.+Paulista+-+Bela+Vista,+S%C3%A3o+Paulo+-+SP/@-23.5657344,-46.6534266,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce59c8da0aa315:0xd59f9431f2c9776a!8m2!3d-23.5657393!4d-46.6512379' target='_blank'>
+                        <a href='https://www.google.com.br/maps/place/Av.+Paulista+-+Bela+Vista,+S%C3%A3o+Paulo+-+SP/@-23.5657344,-46.6534266,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce59c8da0aa315:0xd59f9431f2c9776a!8m2!3d-23.5657393!4d-46.6512379' target='blank'>
                             <FaHome size={20} style={{color:"#FFF", marginRight:"2rem"}}/>
                         </a>
                         <div>
@@ -35,23 +35,21 @@ const Footer = () => {
                 </div>
 
                 <div className='right'>
-                    <h4>Quem é wellsistemasweb ?</h4>
-                    <p>
-                        Este sou eu Wellington Lira. 
-                        Desenvolvedor freelancer com ReactJS e 
-                        também crio softwares com Nodejs e 
-                        aplicativos para dispositivos móveis 
-                        com React native.
+                    <h4>Sobre WellSistemasWeb</h4>
+                    <p> 
+                        Desenvolvedor freelancer com o framework
+                        ReactJS e também utilizo Nodejs no desenvolvimento
+                        softwares. E React native para aplicativos android e ios.
                     </p>
 
                     <div className='social'>
-                        <a href='https://www.instagram.com/wellsistemasweb/' target='_blank'>
+                        <a href='https://www.instagram.com/wellsistemasweb/' target='blank'>
                             <FaInstagram size={30} style={{color:"#FFF", marginRight:"1rem"}}/>
                         </a>
 
                         {/* Canal no youtube video aulas no lugar do twitter */}
                         <FaTwitter size={30} style={{color:"#FFF", marginRight:"1rem"}}/>
-                        <a href='https://www.linkedin.com/in/wellington-lira-704018180/' target='_blank'>
+                        <a href='https://www.linkedin.com/in/wellington-lira-704018180/' target='blank'>
                             <FaLinkedin size={30} style={{color:"#FFF", marginRight:"1rem"}}/>
                         </a>
                     </div>
