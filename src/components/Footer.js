@@ -38,8 +38,8 @@ const Footer = () => {
                     <h4>Sobre WellSistemasWeb</h4>
                     <p> 
                         Desenvolvedor freelancer com o framework
-                        ReactJS e também utilizo Nodejs no desenvolvimento
-                        softwares. E React native para aplicativos android e ios.
+                        ReactJS, também utilizo Nodejs no desenvolvimento de
+                        softwares e React native para aplicativos android e ios.
                     </p>
 
                     <div className='social'>

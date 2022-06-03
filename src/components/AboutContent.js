@@ -8,18 +8,18 @@ const AboutContent = () => {
         <div className='left'>
             <h1>Quem é wellsistemasweb?</h1>
             <p> 
-                Menu nome é Wellington Lira e 
+                Meu nome é Wellington Lira e 
                 depois de alguns anos na areá administrativa decidi
-                iniciar minha carreira como freelancer criando software com C# 
+                iniciar minha carreira como freelancer criando software com C#, 
                 mas devido ao alto custo para meus primeiros clientes 
-                migrei para PHP e logo descobri que a hospedagem compartilhada
-                que tinha um custo menor e era bem atrativa também tinha
+                migrei para o PHP, e logo descobri que a hospedagem compartilhada
+                que tinha um custo menor e era bem atrativa, também tinha
                 uma performance horrível para quem precisa 
                 de aplicações integradas com back-end e banco de dados,
                 então decidi adotar como stack principal no desenvolvimento
-                de software a linguagem Javascript juntamente com React para front-end,
-                react native para desenvolvimento mobile, 
-                node js para back-end, banco de dados postgreSQL 
+                de software a linguagem Javascript, juntamente com ReactJS para front-end,
+                React native para desenvolvimento mobile, 
+                NodeJS para back-end, banco de dados postgreSQL 
                 e a segurança dos servidores aws.
             </p>
             <Link to="/contact">
